@@ -1,0 +1,19 @@
+paths:
+  generic:
+    get:
+      tags:
+        - generic
+      summary: Get generic message
+      parameters: []
+      security: 
+        - api_key: []
+      operationId: getGenericMessage
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: string
+        default:
+          $ref: './common.yaml#/components/responses/Problem'

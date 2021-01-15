@@ -1,0 +1,5 @@
+com\example\multimodule\application\DemoApplication.class
+com\example\multimodule\model\Person.class
+com\example\multimodule\rest\DefaultApiImpl.class
+com\example\multimodule\rest\PersonApiImpl.class
+com\example\multimodule\rest\UserApiImpl.class
