@@ -1,5 +1,9 @@
 package com.example.multimodule.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
@@ -12,28 +16,37 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 import org.hibernate.validator.constraints.CreditCardNumber;
 
-@XmlRootElement(name = "person")
-@XmlAccessorType(XmlAccessType.FIELD)
+//@XmlRootElement(name = "person")
+//@XmlAccessorType(XmlAccessType.FIELD)
+@Entity
+@Table(name = "person")
 public class Person {
 
+	@Id
 	private long id;
+	@Column
 	private String firstName;
 
 	@NotNull
 	@NotBlank
+	@Column
 	private String lastName;
 
 	@Pattern(regexp = ".+@.+\\..+", message = "Please provide a valid email address")
+	@Column
 	private String email;
 
 	@Email()
+	@Column
 	private String email1;
 
 	@Min(18)
 	@Max(30)
+	@Column
 	private int age;
 
 	@CreditCardNumber
+	@Column
 	private String creditCardNumber;
 
 	public String getCreditCardNumber() {
