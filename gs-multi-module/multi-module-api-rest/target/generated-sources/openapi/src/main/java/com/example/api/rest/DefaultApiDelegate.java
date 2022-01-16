@@ -16,7 +16,7 @@ import java.util.Optional;
  * A delegate to be called by the {@link DefaultApiController}}.
  * Implement this interface with a {@link org.springframework.stereotype.Service} annotated class.
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-01-18T16:45:17.403666100+01:00[Europe/Madrid]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-09-18T09:52:09.799136400+02:00[Europe/Paris]")
 
 public interface DefaultApiDelegate {
 

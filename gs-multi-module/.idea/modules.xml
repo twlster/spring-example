@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/multi-module-application/application.iml" filepath="$PROJECT_DIR$/multi-module-application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gs-multi-module.iml" filepath="$PROJECT_DIR$/gs-multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-module-api-rest/multi-module-api-rest.iml" filepath="$PROJECT_DIR$/multi-module-api-rest/multi-module-api-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/multi-module-library.iml" filepath="$PROJECT_DIR$/library/multi-module-library.iml" />
+    </modules>
+  </component>
+</project>

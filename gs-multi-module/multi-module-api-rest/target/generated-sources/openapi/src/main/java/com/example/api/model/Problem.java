@@ -14,7 +14,7 @@ import javax.validation.constraints.*;
  * See[RFC7807](https://tools.ietf.org/html/rfc7807) Use the application/problem+json or application/problem+xml media types when resturning as a response. 
  */
 @ApiModel(description = "See[RFC7807](https://tools.ietf.org/html/rfc7807) Use the application/problem+json or application/problem+xml media types when resturning as a response. ")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-01-18T16:45:17.403666100+01:00[Europe/Madrid]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-09-18T09:52:09.799136400+02:00[Europe/Paris]")
 
 public class Problem   {
   @JsonProperty("type")
